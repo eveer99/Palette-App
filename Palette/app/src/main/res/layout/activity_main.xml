@@ -10,34 +10,34 @@
             android:layout_height="0dp"
             android:layout_weight="1.8">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:src="@drawable/bg" />
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/viewColors"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_alignParentRight="true"
-                android:gravity="center"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="20dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/viewColors"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="9dp"
-                android:layout_marginRight="60dp"
-                android:text="//RGB" />
-        </RelativeLayout>
+                <TextView
+                    android:id="@+id/viewColors"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/viewColors"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginRight="60dp"
+                    android:text="//RGB" />
+            </RelativeLayout>
 
     </LinearLayout>
 
